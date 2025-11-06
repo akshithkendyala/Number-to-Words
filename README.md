@@ -63,14 +63,6 @@ Run the Python script
 
 python number_to_words.py
 
-🧩 Code Structure
-number_to_words.py
-│
-├── two_digit(n)       → Handles numbers from 0–99
-├── three_digit(n)     → Handles 0–999
-├── number_to_words(n) → Recursive logic for larger values
-└── Main section       → Input + print result
-
 💬 Note
 
 This logic seems simple, but once you start implementing it, it gets progressively complex with exceptions and recursion flow.
