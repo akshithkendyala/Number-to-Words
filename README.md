@@ -1,77 +1,47 @@
-🧾 Number to Words (Indian Currency System)
-📖 Overview:
+🔢 Number to Words (Indian Currency System)
 
-This Python program converts a numeric value into its word representation following the Indian numbering system — including crores, lakhs, thousands, and hundreds.
-For example:
+A simple yet powerful Python program that converts any numerical value into words following the Indian numbering system — supporting Crores, Lakhs, Thousands, and more.
 
-Input: 1234567  
-Output: twelve lakh thirty four thousand five hundred and sixty seven
+This logic might seem easy at first, but once you start building it, you’ll face multiple layers of exceptions and recursive challenges. It’s a perfect exercise to sharpen your logic-building skills in Python. 💡
 
+🚀 Features
 
-While it may seem simple at first glance, implementing it requires handling several exceptions, recursive breakdowns, and language-specific nuances.
-This project focuses on logic clarity, recursion, and clean scalability.
+Converts numbers into readable Indian currency format (supports crores, lakhs, thousands, hundreds).
 
-⚙️ Features
+Handles special cases like “and” placement and multi-digit recursion correctly.
 
-Supports Indian numbering units: Crore, Lakh, Thousand, Hundred
+Clean, modular code using helper functions for readability and scalability.
 
-Converts any integer (up to crores and beyond)
+Beginner-friendly logic that also tests your problem-solving and recursive thinking.
 
-Simple, readable output structure
+🧠 Tech Used
 
-Handles special cases like:
+Python 3
 
-Numbers below 20
+📦 Installation
 
-Tens and ones separation
+Clone this repository and run it locally:
+```bash
+git clone https://github.com/<your-username>/Number-to-Words.git
+cd Number-to-Words
+python main.py
 
-“and” insertion for hundreds
+🧩 Code Overview
 
-Modular design with reusable functions
+two_digit(n): Converts numbers below 100 to words.
 
-🧠 Concepts Used
+three_digit(n): Handles hundreds and “and” placements.
 
-Recursion for number decomposition
+number_to_words(num): The main recursive function that breaks the number into crores, lakhs, thousands, and hundreds.
 
-Integer division & modulo operations for digit grouping
-
-String concatenation for structured output
-
-Logical flow control for exceptions
-
-🧩 Example Outputs
-Input	Output
-0	zero
-7	seven
-45	forty five
-100	one hundred
-1205	one thousand two hundred and five
-1234567	twelve lakh thirty four thousand five hundred and sixty seven
-🚀 How to Run
-
-Clone this repository
-
-git clone https://github.com/your-username/number-to-words-indian.git
-
-
-Navigate to the folder
-
-cd number-to-words-indian
-
-
-Run the Python script
-
-python number_to_words.py
+🧮 Example Output
+Enter number: 12345678
+one crore twenty three lakh forty five thousand six hundred and seventy eight
 
 💬 Note
 
-This logic seems simple, but once you start implementing it, it gets progressively complex with exceptions and recursion flow.
-It’s an excellent problem to strengthen your logical thinking and Python fundamentals.
-
-💡 Want to Take It Further?
-
-Try building this logic in other programming languages (like C++, Java, or JavaScript) or explore ways to make it more optimal or modular.
-Feel free to share your version or open a pull request!
+This project was created as part of a logic-building exercise in Python.
+Try implementing the same logic in your preferred language — and see if you can make it even more optimal! ⚡
 
 🧑‍💻 Author
 
