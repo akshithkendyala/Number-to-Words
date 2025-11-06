@@ -19,6 +19,7 @@ Beginner-friendly logic that also tests your problem-solving and recursive think
 Python 3
 
 🧮 Example Output
+
 Enter number: 12345678
 one crore twenty three lakh forty five thousand six hundred and seventy eight
 
