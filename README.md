@@ -18,23 +18,6 @@ Beginner-friendly logic that also tests your problem-solving and recursive think
 
 Python 3
 
-📦 Installation
-
-Clone this repository and run it locally:
-```bash
-git clone https://github.com/<your-username>/Number-to-Words.git
-cd Number-to-Words
-python main.py
-```bash
-
-🧩 Code Overview
-
-two_digit(n): Converts numbers below 100 to words.
-
-three_digit(n): Handles hundreds and “and” placements.
-
-number_to_words(num): The main recursive function that breaks the number into crores, lakhs, thousands, and hundreds.
-
 🧮 Example Output
 Enter number: 12345678
 one crore twenty three lakh forty five thousand six hundred and seventy eight
@@ -47,3 +30,13 @@ Try implementing the same logic in your preferred language — and see if you ca
 🧑‍💻 Author
 
 Akshith Kendyala
+
+📦 Installation
+
+Clone this repository and run it locally:
+```bash
+git clone https://github.com/<your-username>/Number-to-Words.git
+cd Number-to-Words
+python main.py
+
+
