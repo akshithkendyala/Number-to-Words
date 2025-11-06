@@ -25,6 +25,7 @@ Clone this repository and run it locally:
 git clone https://github.com/<your-username>/Number-to-Words.git
 cd Number-to-Words
 python main.py
+```bash
 
 🧩 Code Overview
 
